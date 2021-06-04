@@ -11,7 +11,7 @@ apt install python3.7
 ## CLI usage
 
 ```shell
-python3.7 bi2har.py exported.xml output.har
+python3.7 bi2har.py exported.xml
 ```
 
 See help for advanced usage
