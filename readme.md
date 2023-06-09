@@ -1,22 +1,9 @@
-## bi2har
+## bpi2har
 
-bi2har is a Python-based tool for converting saved burpsuite http items to the HTTP Archive (HAR) format.
-
-## Installation
-
-```shell
-apt install python3.7
-```
+bpi2har is a Python-based tool for converting saved burpsuite http items to the HTTP Archive (HAR) format.
 
 ## CLI usage
 
 ```shell
-python3.7 bi2har.py exported.xml
+bpi2har exported.xml
 ```
-
-See help for advanced usage
-
-```shell
-python3.7 bi2har.py --help
-```
-

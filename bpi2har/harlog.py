@@ -306,20 +306,20 @@ class HarLog(HarLogStructure):
         har_log = self.getHarLog(xml_text)
         self.saveJsonFile(result_path, har_log)
 
-def main():
-    if len(sys.argv) == 3:
-        xml_path = sys.argv[1]
-        result_path = sys.argv[2]
-        HarLog().generate_har(xml_path, result_path)
-    elif len(sys.argv) == 2:
-        if sys.argv[1] == '--help':
-           print(f'Please use this program like {sys.argv[0]} "in.xml" "out.har".')
-        else:
-            xml_path = sys.argv[1]
-            result_path = 'out.har'
-            HarLog().generate_har(xml_path, result_path)
-    else:
-        print(f'Arguments error!!!\nPlease use this program like {sys.argv[0]} "in.xml" "out.har".')
+# def main():
+#     if len(sys.argv) == 3:
+#         xml_path = sys.argv[1]
+#         result_path = sys.argv[2]
+#         HarLog().generate_har(xml_path, result_path)
+#     elif len(sys.argv) == 2:
+#         if sys.argv[1] == '--help':
+#            print(f'Please use this program like {sys.argv[0]} "in.xml" "out.har".')
+#         else:
+#             xml_path = sys.argv[1]
+#             result_path = 'out.har'
+#             HarLog().generate_har(xml_path, result_path)
+#     else:
+#         print(f'Arguments error!!!\nPlease use this program like {sys.argv[0]} "in.xml" "out.har".')
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

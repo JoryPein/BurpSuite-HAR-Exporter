@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bpi2har"
+version = "0.1.0"
+description = ""
+authors = ["Gideon Pein <none@none.com'>"]
+readme = "README.md"
+packages = [{include = "bpi2har"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+bpi2har = "bpi2har.cli:app"
