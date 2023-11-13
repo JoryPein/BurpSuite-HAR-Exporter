@@ -1,9 +1,30 @@
-## bpi2har
+# bpi2har
 
-bpi2har is a Python-based tool for converting saved burpsuite http items to the HTTP Archive (HAR) format.
+**bpi2har** is a Python-based tool designed to facilitate the conversion of saved Burp Suite HTTP items to the HTTP Archive (HAR) format.
 
-## CLI usage
+## Installation
+
+To use **bpi2har**, make sure you have Python installed on your system. You can then install the necessary dependencies using the following command:
+
+```shell
+pip install -r requirements.txt
+```
+
+## CLI Usage
+
+You can convert Burp Suite exported XML files to HAR format using the following command:
 
 ```shell
 bpi2har exported.xml
 ```
+
+Replace `exported.xml` with the path to your Burp Suite exported XML file.
+
+## Example
+
+```shell
+bpi2har burp_export.xml
+```
+
+This command will generate a HAR file named `burp_export.har` in the current directory.
+
