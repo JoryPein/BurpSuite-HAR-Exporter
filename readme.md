@@ -1,6 +1,6 @@
 # bpi2har
 
-**bpi2har** is a Python-based tool designed to facilitate the conversion of saved Burp Suite HTTP items to the HTTP Archive (HAR) format.
+**bpi2har**, BurpSuite-HAR-Exporter, is a Python-based tool designed to facilitate the conversion of saved Burp Suite HTTP items to the HTTP Archive (HAR) format.
 
 ## Installation
 
