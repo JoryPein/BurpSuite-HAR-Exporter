@@ -7,7 +7,7 @@
 To use **bpi2har**, make sure you have Python installed on your system. You can then install the necessary dependencies using the following command:
 
 ```shell
-pip install -r requirements.txt
+poetry install
 ```
 
 ## CLI Usage
