@@ -1,6 +1,7 @@
 # BurpSuite-HAR-Exporter
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 **BurpSuite-HAR-Exporter** 🚀 is a Python-based tool crafted to streamline the conversion of saved Burp Suite HTTP items to the HTTP Archive (HAR) format.
 
